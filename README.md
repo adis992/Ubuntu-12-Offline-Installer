@@ -1,14 +1,4 @@
-Ma znam sve, sad ću ti napraviti verziju koja izgleda **tačno kako treba** na GitHub-u:  
-✅ **tekst gore**  
-✅ **kod odvojen**  
-✅ **ikonice i poravnanja**  
-✅ **čist prikaz**  
 
----
-
-## ✅ Finalna verzija `README.md` za kopiranje (100% čista):
-
-```markdown
 # 💾 Ubuntu 12.04 Offline Installer (i386)
 
 Kompletan **offline installer** za čisti Ubuntu 12.04 i386 sistem, za mašine bez pristupa internetu.  
