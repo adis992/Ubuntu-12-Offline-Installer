@@ -60,8 +60,3 @@ Sve testirano, složeno i provjereno da radi offline.
 Slobodno koristiš, širiš, forkaš – bez ograničenja.
 ```
 
----
-
-Zalijepi ovo **tačno ovako** u `README.md` i vidjećeš kako izgleda brutala.
-
-Ako hoćeš i `preview badge` ili da automatski prikaže `.sh` fajl u opisu — mogu ti i to složiti.
