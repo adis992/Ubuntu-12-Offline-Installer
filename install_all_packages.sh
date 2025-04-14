@@ -1,4 +1,5 @@
 #!/bin/bash
+
 LOGFILE="/var/log/offline_installer.log"
 exec > >(tee -a "$LOGFILE") 2>&1
 
@@ -18,6 +19,9 @@ echo "[*] Testiram apt-get update (repo check)..."
 apt-get update
 
 echo ""
-echo "[✓] Instalacija završena."
-echo "[i] Ako vidite greške, ponovi ručno: dpkg -i *.deb && apt-get -f install"
-echo "[i] Ako je sve prošlo OK, možeš obrisati .deb fajlove: rm -f *.deb"
+echo "[✓] Instalacija .deb paketa završena."
+echo "[*] Učitavam fix_repo_error.sh..."
+source /putanja/do/fix_repo_error.sh
+
+echo "[i] Ako vidite greške, ponovite ručno: dpkg -i *.deb && apt-get -f install"
+echo "[i] Ako je sve prošlo OK, možete obrisati .deb fajlove: rm -f *.deb"
